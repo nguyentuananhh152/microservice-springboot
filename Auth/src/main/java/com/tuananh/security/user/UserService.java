@@ -1,5 +1,8 @@
 package com.tuananh.security.user;
 
+import com.tuananh.security.user.model.ChangePasswordRequest;
+import com.tuananh.security.user.model.Role;
+import com.tuananh.security.user.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;

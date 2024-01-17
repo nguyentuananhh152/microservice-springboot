@@ -1,6 +1,5 @@
 package com.tuananh.security.auth;
 
-import com.tuananh.security.user.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.tuananh.security.user.Map;
+package com.tuananh.security.user;
 
-import com.tuananh.security.user.User;
+import com.tuananh.security.user.model.User;
 import com.tuananh.security.user.dto.UserDTO;
 
 public class Mapping {

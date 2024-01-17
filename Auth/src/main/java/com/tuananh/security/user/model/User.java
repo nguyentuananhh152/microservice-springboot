@@ -1,4 +1,4 @@
-package com.tuananh.security.user;
+package com.tuananh.security.user.model;
 
 import com.tuananh.security.token.Token;
 import jakarta.persistence.*;

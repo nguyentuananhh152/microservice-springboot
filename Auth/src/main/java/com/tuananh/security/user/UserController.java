@@ -1,5 +1,6 @@
 package com.tuananh.security.user;
 
+import com.tuananh.security.user.model.ChangePasswordRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PatchMapping;

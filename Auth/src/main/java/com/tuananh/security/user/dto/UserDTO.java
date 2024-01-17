@@ -1,6 +1,6 @@
 package com.tuananh.security.user.dto;
 
-import com.tuananh.security.user.Role;
+import com.tuananh.security.user.model.Role;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 

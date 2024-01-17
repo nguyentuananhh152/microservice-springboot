@@ -1,6 +1,6 @@
 package com.tuananh.security.token;
 
-import com.tuananh.security.user.User;
+import com.tuananh.security.user.model.User;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

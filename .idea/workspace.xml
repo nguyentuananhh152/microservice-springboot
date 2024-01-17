@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="014d4865-c5de-4190-9a3c-bc077f75859c" name="Changes" comment="" />
+    <list default="true" id="014d4865-c5de-4190-9a3c-bc077f75859c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/api/gateway/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/api/gateway/config/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auditing/ApplicationAuditAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auditing/ApplicationAuditAware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auth/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auth/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/auth/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/token/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/token/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/ChangePasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/model/ChangePasswordRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/Map/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/Mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/java/com/tuananh/security/user/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/api/gateway/AuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/api/gateway/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/api/gateway/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/api/gateway/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/example/test/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/example/test/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -27,6 +58,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2ahrpCS33F6YW8003vDIAm7cmDR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +71,8 @@
     &quot;Application.ServerApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.security [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.security [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -51,7 +85,13 @@
       <recent name="com.api.gateway.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GatewayApplication">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AuthApplication">
     <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tuananh.security.AuthApplication" />
       <module name="security" />
@@ -70,7 +110,7 @@
       <module name="gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.api.gateway.*" />
+          <option name="PATTERN" value="com.api.gateway.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,9 +152,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.AuthApplication" />
         <item itemvalue="Application.TestApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.ServerApplication" />
       </list>
     </recent_temporary>

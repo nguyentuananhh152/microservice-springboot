@@ -1,5 +1,6 @@
-package com.tuananh.security.user;
+package com.tuananh.security.user.model;
 
+import com.tuananh.security.user.Permission;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

@@ -1,8 +1,8 @@
 package com.tuananh.security.config;
 
 import com.tuananh.security.auditing.ApplicationAuditAware;
-import com.tuananh.security.user.Role;
-import com.tuananh.security.user.User;
+import com.tuananh.security.user.model.Role;
+import com.tuananh.security.user.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -11,6 +11,8 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.ResultSetExtractor;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
@@ -22,6 +24,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Properties;
 
 @Configuration
 @RequiredArgsConstructor
@@ -87,5 +90,20 @@ public class ApplicationConfig {
   public PasswordEncoder passwordEncoder() {
     return new BCryptPasswordEncoder();
   }
+
+	@Bean
+	public JavaMailSender javaMailSender() {
+		JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+		mailSender.setHost("smtp.gmail.com");
+		mailSender.setPort(587);
+		mailSender.setUsername("tlu152.dev@gmail.com");
+		mailSender.setPassword("acbyrtxpwrawptmi");
+
+		Properties properties = mailSender.getJavaMailProperties();
+		properties.put("mail.smtp.auth", true);
+		properties.put("mail.smtp.starttls.enable", true);
+
+		return mailSender;
+	}
 
 }
